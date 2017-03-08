@@ -1,0 +1,23 @@
+{
+  "name": "atividade_workflow",
+  "description": "Exercicio CBS Workflow",
+  "main": "index.js",
+  "authors": [
+    "Luis Carlos Quinhone"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "curso"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6"
+  }
+}

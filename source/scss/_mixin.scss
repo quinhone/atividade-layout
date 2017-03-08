@@ -1,0 +1,26 @@
+@mixin navbar-custom($style, $cbs-navbar-bg-color, 
+	$cbs-navbar-brand-color,
+	$cbs-navbar-brand-hover-color,
+	$cbs-navbar-nav-a-color,
+	$cbs-navbar-nav-hover-a-color,
+	$cbs-navbar-nav-hover-bg-color){
+	&.cbs-navbar-#{$style}{
+		background-color: $cbs-navbar-bg-color;
+		> .cbs-navbar-brand{
+			color: $cbs-navbar-brand-color;
+			&:hover{
+				color: $cbs-navbar-brand-hover-color;
+			}
+		}
+		> .cbs-navbar-nav{
+			> a{
+				color: $cbs-navbar-nav-a-color;
+				&:hover{
+					background-color: $cbs-navbar-nav-hover-bg-color;
+					color: $cbs-navbar-nav-hover-a-color;
+				}
+			}
+		}
+	}
+
+}
